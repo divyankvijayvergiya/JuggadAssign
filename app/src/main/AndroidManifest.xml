@@ -20,6 +20,14 @@
         <activity android:name=".DriverActivity" />
         <activity android:name=".DashboardUserActivity" />
         <activity android:name=".DashboardDriverActivity" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCFum3dwlu-g6t_tZORkkUn7fZKLe2SRLI" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 
